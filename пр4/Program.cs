@@ -10,7 +10,8 @@ namespace пр4
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Enter X"); 
+            double x = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
