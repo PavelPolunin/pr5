@@ -12,8 +12,9 @@ namespace пр4
         {
             Console.WriteLine("Enter X"); 
             double x = Convert.ToInt32(Console.ReadLine());
-            double y = 5 * Math.Sin(x) - 7 * Math.Cos(x); 
-            ;
+            double y = 5 * Math.Sin(x) - 7 * Math.Cos(x);
+            Console.WriteLine("Result: " + y);
+            Console.ReadKey();
         }
     }
 }
